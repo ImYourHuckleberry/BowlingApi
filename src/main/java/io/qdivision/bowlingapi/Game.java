@@ -18,7 +18,6 @@ public class Game {
 
     public Game(Integer gameId, List<String> bowlerName) {
         this.gameId = gameId;
-        //this.bowlerName = bowlerName;
         this.bowlers = addGameBowler(bowlerName);
     }
 
@@ -32,7 +31,6 @@ public class Game {
     }
 
 
-    //private List<Bowler> newBowlers = new ArrayList<>();
 
     public List<Bowler> addGameBowler(List<String> name){
        List<Bowler> newBowlers = new ArrayList<>();

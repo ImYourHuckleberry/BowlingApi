@@ -18,9 +18,7 @@ public class Frames {
          return frames;
     }
 
-    //public void setSingleFrame(SingleFrame singleFrame) {
-    //    this.singleFrame = singleFrame;
-    //}
+
 
     Frame frame = new Frame(1);
 

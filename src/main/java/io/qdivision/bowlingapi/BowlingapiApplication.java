@@ -27,15 +27,12 @@ public class BowlingapiApplication {
 
 		return initialBowler;
 
-        //initialBowler.get(0)[0].frame.frames;
+
 	}
 	@Bean
     public List<Game> games() {
 	    List<Game> initialGame = new ArrayList<>();
 	    List<String> bowlerName  = new ArrayList<>();
-	    bowlerName.add("pall");
-        initialGame.add(
-                new Game(1,bowlerName));
 	    return initialGame;
     }
 

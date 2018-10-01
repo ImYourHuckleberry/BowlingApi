@@ -41,11 +41,7 @@ public class Bowler {
         return frames;
     }
 
-    //public void setSingleFrame(SingleFrame singleFrame) {
-    //    this.singleFrame = singleFrame;
-    //}
-    //int frameId = 0;
-    //Frame frame = new Frame(frameId + 1);
+
 
     public List<Frame> bowlerFrames() {
         List<Frame> frames = new ArrayList<>();
